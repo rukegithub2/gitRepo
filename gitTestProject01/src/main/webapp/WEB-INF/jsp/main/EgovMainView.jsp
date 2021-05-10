@@ -74,6 +74,7 @@
                         <c:if test="${fn:length(result) == 0}">
                             <li>등록된 공지사항이 없습니다.</li>
                             <li>Origin Code</li>
+                            <li>이건 새로운 거 추가</li>
                         </c:if>
                     </ul>
     				<!-- //공지사항 끝 -->
@@ -105,7 +106,7 @@
                             </c:forEach>
                         <c:if test="${fn:length(result) == 0}">
                             <li>등록된 갤러리가 없습니다.</li>
-                            <li>Origin Code</li>
+                            <li>Origin Code : 이건 기존 거 수정</li>
                         </c:if>
     					</ul>
     				</div>
